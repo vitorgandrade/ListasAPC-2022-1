@@ -1,0 +1,7 @@
+d, m, a = input().split('/')
+d = int(d)
+m = int(m)
+a = int(a)
+print("%02d-%02d-%02d" % (d, m, a))
+print("%02d-%02d-%02d" % (m, d, a))
+print("%02d/%02d/%02d" % (a, m, d))
