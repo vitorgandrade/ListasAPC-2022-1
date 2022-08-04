@@ -1,0 +1,8 @@
+N = list(map(int,input().strip().split()))
+Maiorvalor = max(N)
+PosMaior = N.index(Maiorvalor)
+Menorvalor = min(N)
+PosMenor = N.index(Menorvalor)
+print('%d %d' % (Menorvalor, PosMenor))
+print('%d %d' % (Maiorvalor, PosMaior))
+print(*N)
